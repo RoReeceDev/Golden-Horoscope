@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+  text-align: center;
+  background-image: url(../img/star-scape-stars.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(254, 193, 26);
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+img{
+  width: 20%;
+}
+
+#birthmonth{
+  margin-right: 1%;
+}
+
+select{
+  margin-top: 20px;
+}
+
+select, button{
+  font-size: 2rem;
+}
+
+button{
+  margin-top: 25px;
+  color: rgb(254, 193, 26);
+  background-color: black;
+}
+
+h1{
+  font-size: 2.7rem;
+}
+
+h2{
+  font-size: 2.3rem;
+}
+
+p{
+  font-size: 2.1rem;
+  width: 50%;
+  margin: 0px 25%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
